@@ -25,6 +25,25 @@
     padding: 0 8px;
     background-color: rgb(255, 227, 226);
     /* border-radius: 15px; */
+    transition: 0.3s ease;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+
+.linking{
+    color: black;text-decoration: none;
+}
+
+.product_card:hover,
+.product_cart:focus{
+    transform: scale(1.05);
+    /* padding: 5px 12px; */
+    /* outline: none; */
+    /* border: none; */
+    background-color: rgb(255, 227, 226);
+    /* background-size: cover; */
 }
 
 .product_image img{
@@ -84,7 +103,7 @@
 
 .add_btn{
     font-size: small;
-    background-color: none;
+    background-color: white;
     padding: 5px 30px 5px;
     color: rgb(73, 69, 190);
     font-weight: bold;

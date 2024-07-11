@@ -31,7 +31,7 @@ function Banner() {
     <section className='banner_section'>
       <div className='banner_block '>
 
-        <Slider maxIndex={maxIndex}  slides={slides} isDotRequired={true} width={2695} indi_width={385} />
+        <Slider maxIndex={maxIndex}  slides={slides} isDotRequired={true} width={2695} indi_width={385} items_to_be_displayed={3} no_of_items_to_scroll={1}/>
 
       </div>
 

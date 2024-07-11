@@ -1,0 +1,125 @@
+.sure_squad_section{
+    width: 100%;
+    margin-top: 45px;
+}
+
+/* .sure_squad_section img{
+    width: 100%;
+} */
+
+.sure_squad_block{
+    width: 100%;
+    max-width: 1170px;
+    margin:0 auto;
+    background-image: linear-gradient(to top, rgb(231, 208, 255), rgb(249, 249, 249));
+    border-radius: 10px;
+    padding: 30px 0;
+}
+
+.sure_squad_img_block{
+    background-image: url("https://assets.faasos.io/eatsure/production/d6a91338b140f666f675/images/cardTexture1.svg"), linear-gradient(rgb(130, 73, 190) 0%, rgb(32, 27, 100) 100%);
+    width:80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+
+.block1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* gap: 15px; */
+    /* width: 31%; */
+}
+
+.heading_sure_squad_block{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.heading_sure_squad{
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+
+.sure_squad_title{
+    color: white;
+    
+}
+
+.sure_squad_btn{
+    background-color: white;
+    max-width: 220px;
+    padding: 10px 25px;
+    margin: 10px 0;
+}
+
+.sure_squad_link{
+    color: purple;
+    
+}
+
+.block2{
+    /* width: 50%; */
+    margin-left: 20%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7); */
+    
+}
+
+.sub_block1{
+    background-color: rgb(96, 62, 156);
+    display: flex;
+    width: 100%;
+    padding: 5px 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.free_delivery,.free_dishes{
+    display: flex;
+    padding: 5px 10px;
+    gap: 5px;
+    color: white;
+    font-weight: 300;
+}
+
+.free_delivery{
+    border-right: 1px solid white;
+}
+
+
+.sub_block2{
+    background-image: linear-gradient(to right bottom, rgb(51, 34, 119), rgb(67, 48, 146));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sub_block2 p{
+    color:  rgb(96, 62, 156);;   
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:1px;
+    width: 190px;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sub_block2 div{
+    color: white;
+    padding:10px;
+}

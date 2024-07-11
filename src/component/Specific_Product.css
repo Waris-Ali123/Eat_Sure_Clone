@@ -1,0 +1,183 @@
+.horizontal_line{
+    height: 1.2px;
+    width: 100%;
+    background-color: rgba(182, 182, 182, 0.453);;
+}
+
+.sprod_block{
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    flex-wrap: wrap;
+    margin:3.5rem auto;
+
+}
+
+
+.simg_container{
+    /* flex:1; */
+    width: 50%;
+    /* background-color: aqua; */
+    
+}
+
+.simg_container img{
+    width: 100%;
+    /* ; */
+}
+
+.sdetail_container{
+    /* flex:1; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: beige; */
+    padding: 0 20px;
+    gap: 10px;
+}
+
+.s_first_block{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.s_first_block img{
+    width: 45px;
+    border-radius: 7px;
+}
+
+.rating_block{
+    display: flex;
+    gap: 3px;
+    color: rgb(54, 177, 22);
+    background: rgb(221, 243, 221);
+    padding: 4px 6px;
+    align-items: center;
+    /* border-radius: 5px; */
+}
+
+.rating_block i{
+    font-size: 11px;
+    
+}
+.rating_block p{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.share_block{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    font-weight: light;
+    font-size: medium;
+    margin-left: 10px;
+}
+
+
+.s_second_block{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 7px;
+
+}
+
+.prod_name{
+    display: flex;
+    /* margin-left: 7px; */
+    gap: 10px;
+    align-items: center;
+}
+
+.prod_name h2{
+    font-weight: 600;
+
+}
+
+.details_block{
+    font-weight: 300;
+    font-size: 17px;
+    color: rgb(52, 52, 52);
+
+}
+
+.read_more_btn{
+    color: black;
+    font-weight: 550;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+
+.coupon_section{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    gap: 15px;
+    overflow-x: auto;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(52, 52, 52);;
+}
+
+.offer{
+    background-color: rgb(239, 255, 239);
+    padding: 8px 12px;
+    
+    /* font-size: ; */
+}
+
+.offer:hover{
+    background-color: white;
+    cursor:pointer
+}
+
+.coupon_code{
+    font-weight: 600;
+}
+
+.more_offer_btn{
+    background: none;
+    border: none;
+    outline: none;
+    color: rgb(73, 69, 190);
+    font-weight: 550;
+    cursor: pointer;
+    /* margin-left: 15px; */
+}
+
+.s_price_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 19px;
+    margin-left: 10px;
+    padding:0 10px;
+}
+
+.s_price{
+    display: flex;
+    /* font-size: medium; */
+    align-items: center;
+    font-size: 22px;
+}
+
+.s_price p{
+    font-weight: 600;
+}
+
+
+.s_add_btn{
+    padding:11px 45px;
+    background-color: rgb(73, 69, 190);
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    border-radius: 5px;
+}
